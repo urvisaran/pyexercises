@@ -97,3 +97,23 @@ def print_numbers_up_to(n):
 ```
 
 What built-in function gives the sequence of numbers from 1 to n?
+
+---
+## 2026-10-27 20:55, in .
+
+**Me:** how can i calculate the length of the words in a list in python?
+
+**Tutor:**
+
+Counting the length of each word in a list is done with a loop or a list comprehension.
+
+```python
+words = ["hello", "world", "python"]  # TODO: replace with your list
+
+# TODO: compute the lengths
+word_lengths = [len(word) for word in words]
+
+print(word_lengths)  # [5, 5, 6]
+```
+
+What is the name of the function that gives the length of a single string?
