@@ -17,3 +17,23 @@ print("Hello, world!")
 ```
 
 What argument does the `print()` function take?
+
+---
+## 2026-10-27 13:46, in .
+
+**Me:** how to write a for loop in python?
+
+**Tutor:**
+
+A **for loop** repeats a block of code for each item in a sequence.
+
+```python
+# Loop over a list of numbers
+numbers = [10, 20, 30]
+
+for value in numbers:
+    # TODO: print the square of each value
+    print(value * value)
+```
+
+What is the keyword that starts a for loop in Python?

@@ -22,10 +22,13 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a string of the message (hi paris)
+# 2. Process: for loop using the range of 1 to 6
+# 3. Out: the message five times, numbered 
+# 4. My message, and why: my message was hi paris and it was repeated and numbered five times to finish the assignment
 
 
 # Your code below
+message = "hi paris"
+for i in range(1,6):
+    print(i, message)
