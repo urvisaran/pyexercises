@@ -145,3 +145,24 @@ for item in products:
 ```
 
 What is the loop variable called in this pattern?
+
+---
+## 2026-10-27 21:47, in .
+
+**Me:** what is a while loop?
+
+**Tutor:**
+
+A while loop repeats a block of code as long as a condition is True.
+
+```python
+# Count how many times we can subtract 3 from 10 before it goes below 0
+count = 10
+steps = 0
+while count >= 3:        # TODO: write the condition here
+    count = count - 3    # TODO: subtract 3 from count
+    steps = steps + 1    # TODO: add 1 to steps
+print("Steps taken:", steps)
+```
+
+What is the name of the operator that checks if one number is greater than or equal to another?

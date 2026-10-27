@@ -28,10 +28,34 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: input is the minimum and maximum number of attempts, along with the creation of the variable answer with an empty string to use in the while loop
+# 2. Process: the while loop decides that when the conditions are met, the answer will be printed accordingly and the loop stops accordingly, using break
+# 3. Out: prints the total number of attempts along with the list of attempts
+# 4. My stop condition, my attempt limit, my summary: stop condition, is if the user says no to conintuing or if the max number of attempts is reached
 
 
 # Your code below
+
+attempts = 0
+max_attempts = 5
+
+answer = ""
+
+while answer != "no" and attempts < max_attempts:
+    answer = input("Do you want to continue? ").strip().lower()
+    attempts = attempts + 1
+
+    if answer == "yes":
+        print("continue")
+    if attempts == max_attempts:
+        print ("max number of attempts reached")
+        break
+    if answer == "no":
+        print("stopping.")
+        break
+    else:
+        print("enter yes or no")
+
+print("total attempts:", attempts)
+
+    
