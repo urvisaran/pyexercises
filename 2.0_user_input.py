@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: input given by the user, by using the input function. in my case, this was name and age 
+# 2. Process: using the input entered by the user in a print statement
+# 3. Out: the print statement using string concatenation 
+# 4. My two fields, and what I would do with them: my two fields are name and age and i can use them to find the basic details of the user. 
 
 
 # Your code below
