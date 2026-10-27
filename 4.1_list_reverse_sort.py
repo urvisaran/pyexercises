@@ -25,10 +25,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: input is the same list as last time
+# 2. Process: changing the order of the list on the basis of the alphabets and lengths, etc.
+# 3. Out: output was the different types of orders of the list
+# 4. My four orders, and which ones modify the original: alphabetical order, reverse of the alphabetical order, reverse overall order of the list and order of the list by word length. all of these modify the original
 
 
 # Your code below
+drinks = ["vodka","wine", "tequila", "beer", "gin", "whiskey", "rum", "rosé"]
+print ("original list:", drinks)
+print ("alphabetical order:", sorted(drinks))
+print ("reversed alphabetical order:", sorted(drinks, reverse=True))
+print ("reverse order of the list:", list(reversed(drinks)))
+print ("order by word length:", sorted(drinks, key=len))
+print ("original list again:", drinks)
