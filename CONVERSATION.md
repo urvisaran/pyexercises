@@ -54,3 +54,12 @@ print("You entered:", user_text)
 ```
 
 Question: Which function is used to get input from the user?
+
+---
+## 2026-10-27 15:05, in .
+
+**Me:** name of the error thrown when zero is in the denominator during division?
+
+**Tutor:**
+
+Refused, off topic.
