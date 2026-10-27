@@ -63,3 +63,19 @@ Question: Which function is used to get input from the user?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-27 19:56, in .
+
+**Me:** what does the strip function do to a string?
+
+**Tutor:**
+
+The strip function removes leading and trailing whitespace from a string.
+
+```python
+text = "   hello world   "
+cleaned = text.strip()  # TODO: what will cleaned contain?
+```
+
+What is the type of the argument that the strip method expects?
