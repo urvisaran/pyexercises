@@ -37,3 +37,20 @@ for value in numbers:
 ```
 
 What is the keyword that starts a for loop in Python?
+
+---
+## 2026-10-27 14:36, in .
+
+**Me:** How can i get an input from the user?
+
+**Tutor:**
+
+Concept: Getting text input from the user in Python.
+
+Pattern:
+```python
+user_text = input("Enter something: ")
+print("You entered:", user_text)
+```
+
+Question: Which function is used to get input from the user?
