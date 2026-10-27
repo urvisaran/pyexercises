@@ -23,10 +23,32 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: input is a dictionary of the five given items related to the brand 
+# 2. Process: process includes reading the value assigned to a particular field, changing the value assigned to one field, deleting a field, showing the final list and then checking to see which error we get when a field that is not there in the dict is called (KeyError). 
+# 3. Out: output is the final details of the campaign, after deleting a field and changing the value of one of the fields. 
+# 4. My object, my five fields, and why those: my five fields are details from one of my favorite brands.
 
 
 # Your code below
+campaign = {
+    "brand": "Miu Miu",
+    "campaign_name": "Summer Collection 2027",
+    "platform": "Instagram",
+    "budget": 50000,
+    "target_audience": "Women aged 18-30",
+    "clicks": 12000
+}
+#reading a field
+print ("brand:", campaign["brand"])
+#changing a field
+campaign["budget"] = 60000
+print ("new budget:", campaign["budget"])
+#removing a field
+del campaign["clicks"]
+#display every field with a value
+print ("Final campaign details:")
+for field, value in campaign.items():
+    print(field, ":", value)
+
+
+
