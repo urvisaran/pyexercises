@@ -126,3 +126,22 @@ What is the name of the function that gives the length of a single string?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-27 21:34, in .
+
+**Me:** how does a for loop work?
+
+**Tutor:**
+
+A for loop repeats a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+for item in products:
+    print("Processing", item)  # TODO: replace with your code
+```
+
+What is the loop variable called in this pattern?

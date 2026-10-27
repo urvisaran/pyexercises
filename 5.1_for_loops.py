@@ -24,10 +24,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: input is the list of drinks
+# 2. Process: it starts with the first position and then uses a for loop for every item in the list to show its position and length
+# 3. Out: number of letters in each drink along with its' position
+# 4. What I compute for each item, and why it is worth showing: it shows the position of each drink along with the number of letters in each drink
 
 
 # Your code below
+drinks = ["vodka","wine", "tequila", "beer", "gin", "whiskey", "rum", "rosé"]
+position = 1
+
+for drink in drinks:
+    print(drink, "- Position:", position, "- Number of letters:", len(drink))
+    position = position + 1
