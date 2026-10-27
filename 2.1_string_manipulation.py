@@ -27,7 +27,7 @@ DELIVERABLE
 # 1. In: an inputted sentence by the user
 # 2. Process: using string functions for string transformations on the input
 # 3. Out: the string transformations
-# 4. My four transformations, and when each is useful:
+# 4. My four transformations, and when each is useful: upper can be used to make all the letters capital, lower makes all the letters lowercase, reverse can reverse everythin in the sentence and strip will remove any leading and trailing whitespaces.
 
 
 # Your code below
