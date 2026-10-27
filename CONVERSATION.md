@@ -79,3 +79,21 @@ cleaned = text.strip()  # TODO: what will cleaned contain?
 ```
 
 What is the type of the argument that the strip method expects?
+
+---
+## 2026-10-27 20:28, in .
+
+**Me:** how can i use a for loop to use for numbers from 1 to n?
+
+**Tutor:**
+
+Looping over a range of numbers.
+
+```python
+def print_numbers_up_to(n):
+    # TODO: use a for loop to print numbers from 1 to n (inclusive)
+    for _____ in _____:
+        print(_____)
+```
+
+What built-in function gives the sequence of numbers from 1 to n?
